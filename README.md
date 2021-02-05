@@ -12,7 +12,7 @@
 
     Number of paid reviews 94
     Number of paid five star reviews 48
-    Percantage of paid reviews that are five stars 51.06%
+    Percentage of paid reviews that are five stars 51.06%
 
 # Level 2 Findings
 
@@ -20,4 +20,7 @@
 
     Number of unpaid reviews 40471
     Number of unpaid five star reviews 15663
-    Percantage of paid reviews that are five stars 38.7%
+    Percentage of unpaid reviews that are five stars 38.7%
+
+## Conclusion
+
