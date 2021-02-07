@@ -1,5 +1,5 @@
 -- Junction table of customers, products and reviews
-CREATE TABLE review_id_table (
+CREATE TABLE junction_review_customer_product (
   review_id TEXT PRIMARY KEY NOT NULL,
   customer_id INTEGER,
   product_id TEXT,
@@ -20,10 +20,16 @@ CREATE TABLE customers (
 );
 
 -- Vine table
-CREATE TABLE vine_table (
+CREATE TABLE vines (
   review_id TEXT PRIMARY KEY,
   star_rating INTEGER,
   helpful_votes INTEGER,
   total_votes INTEGER,
   vine TEXT
 );
+
+
+SELECT * FROM junction_review_customer_product;
+
+-- 69752 records load
+SELECT * FROM products;
